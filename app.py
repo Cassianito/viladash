@@ -65,7 +65,7 @@ elif page == "Gráficos":
 
 # ---------------- CAMPANHAS ----------------
 elif page == "📣 Campanhas":
-    st.title("📣 Cadastro de Campanhas")
+    st.title("📣 Cadastro de Campanhas") 
     st.subheader("Nova campanha")
 
     with st.form("form_campanha"):
