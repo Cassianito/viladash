@@ -15,7 +15,7 @@ plt.rcParams["axes.labelsize"] = 9
 plt.rcParams["axes.titlesize"] = 11
 
 # ---------------- CONEXÃO SUPABASE ----------------
-SUPABASE_URL = "postgresql://postgres:vilahoa20001@db.dsejbxatmyeosjihywrk.supabase.co:5432/postgres"  # Substitua
+SUPABASE_URL = "postgresql://postgres:vilahoa20001@db.dsejbxatmyeosjihywrk.supabase.co:5432/postgres"  # Substitua 
 engine = create_engine(SUPABASE_URL)
 
 def ler_clientes():
